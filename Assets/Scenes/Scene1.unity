@@ -300,6 +300,11 @@ Prefab:
       propertyPath: FollowUpScene
       value: Scenes/Scene2
       objectReference: {fileID: 0}
+    - target: {fileID: 82475935711318954, guid: 4e5e2fc33b3e3094c969c54b54783ffd,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dcecfa4722a6ec240af03a90327b4fc4, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e5e2fc33b3e3094c969c54b54783ffd, type: 2}
   m_IsPrefabParent: 0

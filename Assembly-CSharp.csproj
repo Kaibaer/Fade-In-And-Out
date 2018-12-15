@@ -59,10 +59,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AFadeStates.cs" />
-    <Compile Include="Assets\Scripts\FadeInState.cs" />
-    <Compile Include="Assets\Scripts\FadeOutState.cs" />
-    <Compile Include="Assets\Scripts\Fading.cs" />
+    <Compile Include="Assets\Scripts\AFaderStates.cs" />
+    <Compile Include="Assets\Scripts\Fader.cs" />
+    <Compile Include="Assets\Scripts\FaderInState.cs" />
+    <Compile Include="Assets\Scripts\FaderOutState.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/Unity for Development/Projects/Loading/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

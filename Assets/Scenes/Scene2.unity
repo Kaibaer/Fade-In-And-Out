@@ -299,7 +299,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 435574d5dbfc92d40b542693ba4c1cbb, type: 3}
+      objectReference: {fileID: 8300000, guid: 035e02fcbefb81c48bf7abcc5bc43246, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e5e2fc33b3e3094c969c54b54783ffd, type: 2}
   m_IsPrefabParent: 0
