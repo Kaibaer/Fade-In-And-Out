@@ -11,7 +11,6 @@ public abstract class AFaderStates
     protected bool isTransitioning;
     protected float Transition;
     public float Duration;
-    public bool Initialized = false;
 
     public void GeneralSetup(AFaderStates state, float duration)
     {

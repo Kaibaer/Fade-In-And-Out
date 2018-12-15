@@ -9,3 +9,40 @@ To use this Fade In and Out Manager:
 - Set the "Duration" of the fade in and fade out (currently the same time)
 - To change the level sound, add another AudioClip to the AudioSource component attached to the FadeManger. 
 
+
+
+See the example at: https://www.youtube.com/watch?v=AcCe611foT0
+
+
+
+\```mermaid
+
+classDiagram
+
+​    MonoBehavior <|-- Fader
+
+​    Fader -- AFaderStates
+
+​    AudioSource -- Fader
+
+​    Image -- Fader
+
+​    AFaderStates <|-- FaderOutState
+
+​    AFaderStates <|-- FaderInState
+
+​    AFaderStates : bool : IsTransitioning
+
+​    AFaderStates : Transit()
+
+​    AFaderStates : Fade()
+
+​    AFaderStates : Setup()
+
+​    AFaderStates : float : Transition
+
+​    Fader : float : Duration
+
+​    Fader : string : NextScene
+
+\```
